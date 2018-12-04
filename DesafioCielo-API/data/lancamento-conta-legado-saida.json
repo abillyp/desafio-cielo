@@ -1,0 +1,74 @@
+{
+  "listaControleLancamento" : [ {
+    "lancamentoContaCorrenteCliente" : {
+      "numeroRemessaBanco" : 64320236054,
+      "nomeSituacaoRemessa" : "Pago",
+      "dadosDomicilioBancario" : {
+        "codigoBanco" : 123,
+        "numeroAgencia" : 1,
+        "numeroContaCorrente" : "00000000065470"
+      },
+      "nomeTipoOperacao" : "regular"
+    },
+    "dataEfetivaLancamento" : "03/06/2016",
+    "dataLancamentoContaCorrenteCliente" : "03/06/2016",
+    "numeroEvento" : 42236790,
+    "descricaoGrupoPagamento" : "LA-56",
+    "nomeBanco" : "BANCO ABCD S.A.             ",
+    "valorLancamentoRemessa" : 11499.1
+  }, {
+    "lancamentoContaCorrenteCliente" : {
+      "numeroRemessaBanco" : 64320626054,
+      "nomeSituacaoRemessa" : "Pago",
+      "dadosDomicilioBancario" : {
+        "codigoBanco" : 123,
+        "numeroAgencia" : 1,
+        "numeroContaCorrente" : "00000000065470"
+      },
+      "nomeTipoOperacao" : "regular"
+    },
+    "dataEfetivaLancamento" : "02/06/2016",
+    "dataLancamentoContaCorrenteCliente" : "02/06/2016",
+    "numeroEvento" : 42592397,
+    "descricaoGrupoPagamento" : "LA-56",
+    "nomeBanco" : "BANCO ABCD S.A.             ",
+    "valorLancamentoRemessa" : 1960
+  }, {
+    "lancamentoContaCorrenteCliente" : {
+      "numeroRemessaBanco" : 64320626058,
+      "nomeSituacaoRemessa" : "Pendente",
+      "dadosDomicilioBancario" : {
+        "codigoBanco" : 123,
+        "numeroAgencia" : 1,
+        "numeroContaCorrente" : "00000000065470"
+      },
+      "nomeTipoOperacao" : "regular"
+    },
+    "dataEfetivaLancamento" : "30/11/2016",
+    "dataLancamentoContaCorrenteCliente" : "02/06/2016",
+    "numeroEvento" : 42592397,
+    "descricaoGrupoPagamento" : "LA-56",
+    "nomeBanco" : "BANCO ABCD S.A.             ",
+    "valorLancamentoRemessa" : 1960
+  }, {
+    "lancamentoContaCorrenteCliente" : {
+      "numeroRemessaBanco" : 64320236054,
+      "nomeSituacaoRemessa" : "Pendente",
+      "dadosDomicilioBancario" : {
+        "codigoBanco" : 123,
+        "numeroAgencia" : 1,
+        "numeroContaCorrente" : "00000000065470"
+      },
+      "nomeTipoOperacao" : "regular"
+    },
+    "dataEfetivaLancamento" : "30/11/2016",
+    "dataLancamentoContaCorrenteCliente" : "02/06/2016",
+    "numeroEvento" : 42592397,
+    "descricaoGrupoPagamento" : "LA-56",
+    "nomeBanco" : "BANCO ABCD S.A.             ",
+    "valorLancamentoRemessa" : 1960
+  } ],
+  "indice" : 1,
+  "totalElements" : 39,
+  "tamanhoPagina" : 25
+}
