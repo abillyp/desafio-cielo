@@ -1,0 +1,40 @@
+<div class="container align-self-center">
+    <div class="ui-g">
+
+      <div class="ui-g-12">
+        <h1>Extrato de Lancamento em Conta </h1>
+      </div>
+
+
+    <div class="ui-g-12">
+      <div class="table-responsive">
+        <p-table  [value]="extratosResumidos" [paginator]="true" [rows]="5" [responsive]="true" scrollHeight="400px">
+          <ng-template pTemplate="header">
+                <tr>
+                    <th class="col-data-lancamento">Data de Lançamento</th>
+                    <th>Descrição</th>
+                    <th class="col-numero">Número</th>
+                    <th>Situação</th>
+                    <th class="col-data-confirmacao">Data da Confirmação</th>
+                    <th class='dados-bancarios'>Dados Bancários</th>
+                    <th>Valor Final</th>
+                </tr>
+          </ng-template>
+          <ng-template pTemplate="body" let-lancamento>
+             <tr>
+              <td>{{lancamento.dataEfetivaLancamento}}</td>
+              <td>{{lancamento.descricao}}</td>
+              <td>{{lancamento.numero}}</td>
+              <td>{{lancamento.situacao}}</td>
+              <td>{{lancamento.dataEfetivaLancamento}}</td>
+              <td>{{lancamento.dadosBancario}}</td>
+              <td>{{lancamento.valorFinal | currency:'BRL': 'symbol-narrow' }}</td>
+               </tr>
+          </ng-template>
+        </p-table>
+       </div>
+
+    </div>
+
+  </div>
+  </div>

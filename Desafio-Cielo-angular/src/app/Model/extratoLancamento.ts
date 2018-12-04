@@ -1,0 +1,28 @@
+import { OnInit } from '@angular/core';
+import { ListaControleLancamento } from './listaControleLancamento';
+
+export class ExtratoLancamento implements OnInit {
+
+  listaControleLancamento: ListaControleLancamento[];
+  dataLancamento: string;
+  descricao: string;
+  numero: number;
+  situacao: string;
+  dataConfirmacao: string;
+  dadosBancario: string;
+  valorFinal: number;
+
+  ngOnInit() {
+  }
+
+  constructor() {
+  this.dataLancamento = '';
+  this.descricao = '';
+  this.numero = 0;
+  this.situacao = '';
+  this.dataConfirmacao = '';
+  this.dadosBancario = '';
+  this.valorFinal = 0;
+  }
+
+}
